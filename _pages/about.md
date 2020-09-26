@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-When I finished my master degree program 12 years ago, I was not able to match many subjective definitions from the academy on the industrial world. So, many ideas and definitions were only suitable for books and academic references. For this reason, I took advantage of a chance to take a look onto industry. This short chance lasted more than 10 years. Now, many questions were solved and now I come back to academy to get in touch with mathematical models and tecnologies that are leading 5G and Beyond wireless generation. For this reason, now I can say that my view of joined point between academy and industry is more comprehensive than before.
+When I finished my master degree program 12 years ago, I was not able to match many subjective definitions from the academy on the industrial world. So, many ideas and definitions were only suitable for books and academic references. For this reason, I took advantage of a chance to take a look onto industry. This short chance lasted more than 10 years. Now, many questions were clarified and now I am coming back to academy to get in touch with mathematical models and tecnologies that are leading 5G and Beyond wireless generation. For this reason, now I can say that my view of joined point between academy and industry is more comprehensive than before.
 
 
 A brief Biography
