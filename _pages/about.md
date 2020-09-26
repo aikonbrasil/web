@@ -17,4 +17,4 @@ I am an Engineer with experience on Wireless Communication by more than 15 years
 
 My bachelor in Electronic Engineering was done in San Marcos National University, in Lima, Perú. My Master degree in Electrical Engineering was done in the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil.
 
-For more details, you can take a look to my CV. 
+For more details, you can take a look to my CV..
