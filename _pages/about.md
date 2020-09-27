@@ -10,7 +10,7 @@ redirect_from:
 
 A brief Biography
 ======
-I am an Engineer with experience on Wireless Communication by more than 15 years. All this time was shared between academy and industry. In my Master I worked with OFDM and non-linear systems, and now in my PhD I am studying GFDM, Grant-free access, reconfigurable intelligent surfaces, and cell-free massive MIMO.
+My name is Dick Carrillo Melgarejo and welcome to my CV page. I am an Engineer with experience on Wireless Communication by more than 15 years. All this time was shared between academy and industry. In my Master I worked with OFDM and non-linear systems, and now in my PhD I am studying GFDM, Grant-free access, reconfigurable intelligent surfaces, and cell-free massive MIMO.
 
 Nowadays, I am doing a double degree PhD program at LUT University from Finland and UNICAMP from Brazil. My Master degree in Electrical Engineering was done in the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done in San Marcos National University, in Lima, Perú.
 
