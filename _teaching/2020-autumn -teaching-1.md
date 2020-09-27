@@ -12,10 +12,8 @@ This is an introductory course on simulation of cellular networks using ns3
 
 Pre-installation and ns3 environment
 ======
-
-https://www.youtube.com/watch?v=dr9ghhDZVVA
-
-https://www.youtube.com/watch?v=HT8vE9yatIg
+[Environment](https://www.youtube.com/watch?v=dr9ghhDZVVA)
+[ns3 installation](https://www.youtube.com/watch?v=HT8vE9yatIg)
 
 General Concepts of Wireless Communication
 ======
