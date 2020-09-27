@@ -30,9 +30,9 @@ Work experience
   
 Skills
 ======
-* Full understanding of Wireless Communication Network
-* System and link level simulation (Matlab, ns3)
-* Writing skills for scientific papers for Journals and Conferences
+* Full understanding of Wireless Communication Networks on different layers of the protocol stack.
+* System and link level simulation (Matlab, ns3).
+* Writing skills for scientific papers (Journals and Conferences).
 
 Publications
 ======
