@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+* [Download CV here](http://academicpages.github.io/files/cv.pdf)
+
+
 Education
 ======
 * B.S. in Electrical and Electronics Engineering, San Marcos National University, 2004
@@ -53,3 +56,7 @@ Service and leadership
 ======
 * Wireless Communication Platform at CPqD (Leading)  (2014-2018)
 * Volunteer activities at IEEE in a diversity of positions at Regional and local level
+
+Detailed CV
+======
+* [Download CV here](http://academicpages.github.io/files/cv.pdf)
