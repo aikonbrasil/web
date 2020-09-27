@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Understanding Wireless Communication from Both Angles: Academic and Industrial"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,13 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-When I finished my master degree program 12 years ago, I was not able to match many subjective definitions from the academy on the industrial world. So, many ideas and definitions were only suitable for books and academic references. For this reason, I took advantage of a chance to take a look onto industry. This short chance lasted more than 10 years. Now, many questions were clarified and now I am coming back to academy to get in touch with mathematical models and tecnologies that are leading 5G and Beyond wireless generation. For this reason, now I can say that my view of joined point between academy and industry is more comprehensive than before.
-
-
 A brief Biography
 ======
 I am an Engineer with experience on Wireless Communication by more than 15 years. All this time was shared between academy and industry. In my Master I worked with OFDM and non-linear systems, and now in my PhD I am studying GFDM, Grant-free access, reconfigurable intelligent surfaces, and cell-free massive MIMO.
 
-My bachelor in Electronic Engineering was done in San Marcos National University, in Lima, Perú. My Master degree in Electrical Engineering was done in the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil.
+Nowadays, I am doing a double degree PhD program at LUT University from Finland and UNICAMP from Brazil. My Master degree in Electrical Engineering was done in the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done in San Marcos National University, in Lima, Perú.
 
-For more details, you can take a look to my CV..
+For more details, you can take a look to my CV.
+
+Strong Messages with Short Phrases
+======
+When I finished my master degree program 12 years ago, I was not able to match many subjective definitions from the academy on the industrial world. So, many ideas and definitions were only suitable for books and academic references. However, most of them did not match with the real world. For this reason, I was taking a look outside this amazing bubble that lasted more than 10 years.
+
+Now, many questions are clarified and after 10 years I am coming back to academy. The idea is to complement my industry experience with amazing mathematical models and tecnologies that are leading 5G and Beyond wireless generation. For this reason, I can say that my view of the encounter point between academy and industry is today more comprehensive than before.

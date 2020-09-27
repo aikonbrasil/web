@@ -11,30 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Electrical and Electronics Engineering, San Marcos National University, 2004
+* M.S. in Electrical Engineering, the Pontifical Catholic University of Rio de Janeiro, 2008
+* Ph.D in Electrical Engineering, LUT University/UNICAMP, 2022 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2008-2010: Research Engineer
+  * INDT (Nokia Institute of Technology)
+  * Duties included: System Model Simulation of Cellular Networks
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2010-2018: Senior Research Engineer
+  * CPqD (Center for Research and Development)
+  * Duties included: System integration on the development process of LTE/LTE-A cellular network solutions in Rural Scenarios. Full protocol stack architect definitions. Implementation of test-beds using insights of cognitive network on WiFi Networks. Development of cellular connectivity on 250 MHz band.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Full understanding of Wireless Communication Network
+* System and link level simulation (Matlab, ns3)
+* Writing skills for scientific papers for Journals and Conferences
 
 Publications
 ======
@@ -56,4 +51,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Wireless Communication Platform at CPqD (Leading)  (2014-2018)
+* Volunteer activities at IEEE in a diversity of positions at Regional and local level
