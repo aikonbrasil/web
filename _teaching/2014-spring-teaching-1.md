@@ -1,20 +1,33 @@
 ---
-title: "Teaching experience 1"
+title: "System Level Simulation on Cellular Networks"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Post graduate Course"
+permalink: /teaching/2020-autumn -teaching-1
+venue: "LUT University, Energy Systems"
+date: 2020-09-01
+location: "Lappeenranta, Finland"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This is an introductory course on simulation of cellular networks using ns3
 
-Heading 1
+Pre-installation and ns3 environment
 ======
 
-Heading 2
+https://www.youtube.com/watch?v=dr9ghhDZVVA
+
+https://www.youtube.com/watch?v=HT8vE9yatIg
+
+General Concepts of Wireless Communication
 ======
 
-Heading 3
+Hands on with ns3 environment
+======
+
+point-to-point simulation
+======
+
+point-to-multipoint simulation
+======
+
+Advanced scenarios on 4G/5G
 ======
