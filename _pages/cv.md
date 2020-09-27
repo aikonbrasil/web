@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Full CV Version](http://academicpages.github.io/files/cv.pdf)
+[Full CV Version](http://aikonbrasil.github.io/web/files/cv.pdf)
 
 
 Education
@@ -59,4 +59,4 @@ Service and leadership
 
 Detailed CV
 ======
-* [Full CV Version](http://academicpages.github.io/files/cv.pdf)
+* [Full CV Version](http://aikonbrasil.github.io/web/files/cv.pdf)
