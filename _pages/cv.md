@@ -27,6 +27,10 @@ Work experience
 * 2010-2018: Senior Research Engineer
   * CPqD (Center for Research and Development)
   * Duties included: System integration on the development process of LTE/LTE-A cellular network solutions in Rural Scenarios. Full protocol stack architect definitions. Implementation of test-beds using insights of cognitive network on WiFi Networks. Development of cellular connectivity on 250 MHz band.
+
+* 2018 - On going: Researcher
+  * LUT University (Lappeenranta University of Technology)
+  * Duties include: Academic Research on Wireless Communication Supporting Automation and Power System use cases. Supporting Technical Assistance to the Private Cellular Network available at the University. Consultancy on general topics that involves wireless communications, specially based on commercial and standardized technologies.
   
 Skills
 ======
