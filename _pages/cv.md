@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* [Download CV here](http://academicpages.github.io/files/cv.pdf)
+[Full CV Version](http://academicpages.github.io/files/cv.pdf)
 
 
 Education
@@ -59,4 +59,4 @@ Service and leadership
 
 Detailed CV
 ======
-* [Download CV here](http://academicpages.github.io/files/cv.pdf)
+* [Full CV Version](http://academicpages.github.io/files/cv.pdf)
