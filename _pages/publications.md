@@ -15,4 +15,4 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-More publications and further details can be found in my [Full CV Version](http://aikonbrasil.github.io/web/files/cv.pdf)
+**More publications and further details can be found in my** [Full CV Version](http://aikonbrasil.github.io/web/files/cv.pdf)
