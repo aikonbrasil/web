@@ -20,10 +20,10 @@ Nowadays, I am doing a double degree PhD program at LUT University from Finland 
 
 <div style="text-align: justify"> 
 For more details, you can take a look to my <a href="http://aikonbrasil.github.io/web/files/cv.pdf"  target="_blank"> Full CV Version </a> or <a href="http://aikonbrasil.github.io/web/files/cv_short.pdf"  target="_blank"> Short CV Version </a>
-
-
-
 </div>
+
+&nbsp;
+&nbsp;
 
 Strong Messages with Short Phrases
 ======
