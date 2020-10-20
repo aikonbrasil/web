@@ -25,13 +25,16 @@ The impact of cellular networks on society has been defined by the evolution of 
 There are a variety of options to study and analyze cellular networks. Academic institutions usually prioritize communication theory frameworks, focusing on specific network layer features, such as physical layer considering only symbol level analyses, usually this mathematical framework is compared with Monte Carlo simulation to validate results. In the case of industry, it mostly prioritizes complex simulator that aims to reproduce real scenarios with a protocol stack that is complain with the current cellular network standard. So, in general simulation of digital communication systems has a fundamental importance because it enables the design of specific scenarios and constraints using only computational resources, avoiding the high cost on development of the same scenario in a real environment.
 
 
-In academy and industry, there are a diversity of simulators and tools. For instance, at link level simulation is common to consider Matlab to support specific physical layer and MAC features; in the system level simulation, Matlab can be also used; however, it presents some computational limitations by the amount of routines. For this reason, most of the system level simulators consider to use high performance programming languages, such as C++.
+In both, academy and industry, there are a diversity of simulators and tools. For instance, at link level simulation is common to consider Matlab to support specific physical layer and MAC features; in the system level simulation, Matlab can be also used; however, it presents some computational limitations by the amount of routines. For this reason, most of the system level simulators consider to use high performance programming languages, such as C++.
 
 The nature of full packet-switched network of cellular networks since 4G development provides flexibility to simulate the protocol stack in specialized software. One of these tools is ns-3, which is an open-source discrete-event network simulator. It can be used to prove fundamental features on communication and also to test new features without investing in a real network deployment. However, reproducing a similar protocol stack that has been implemented on real devices.
+
+If you are interested in details, please check the following [wireless communication](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-452-principles-of-wireless-communications-spring-2006/) reference.
 
 
 Hands on with ns3 environment
 ======
+
 
 point-to-point simulation
 ======
