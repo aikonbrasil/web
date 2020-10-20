@@ -14,7 +14,8 @@ My name is Dick Carrillo Melgarejo and welcome to my CV page. I am an Engineer w
 
 Nowadays, I am doing a double degree PhD program at LUT University from Finland and UNICAMP from Brazil. My Master degree in Electrical Engineering was done in the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done in San Marcos National University, in Lima, Perú.
 
-For more details, you can take a look to my CV.
+For more details, you can take a look to my [Full CV Version](http://aikonbrasil.github.io/web/files/cv.pdf) or  
+[Short CV Version](http://aikonbrasil.github.io/web/files/cv_short.pdf).
 
 Strong Messages with Short Phrases
 ======
