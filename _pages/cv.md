@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Full CV Version](http://aikonbrasil.github.io/web/files/cv.pdf)
+[Full CV Version](http://aikonbrasil.github.io/web/files/cv.pdf) - 
 [Short CV Version](http://aikonbrasil.github.io/web/files/cv_short.pdf)
 
 
