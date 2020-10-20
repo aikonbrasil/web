@@ -34,7 +34,7 @@ In both, academy and industry, there are a diversity of simulators and tools. Fo
 
 
 <div style="text-align: justify"> 
-The nature of full packet-switched network of cellular networks since 4G development provides flexibility to simulate the protocol stack in specialized software. One of these tools is ns-3, which is an open-source discrete-event network simulator. It can be used to prove fundamental features on communication and also to test new features without investing in a real network deployment. However, reproducing a similar protocol stack that has been implemented on real devices.
+The nature of full packet-switched network of cellular networks since 4G development provides flexibility to simulate the protocol stack in specialized software. One of these tools is ns-3, which is an open-source discrete-event network simulator. It can be used to prove fundamental features on communication and also to test new features without investing in a real network deployment. Furthermore, reproducing a similar protocol stack that has been implemented on real devices.
 </div>
 
 If you are interested in details, please check the following [wireless communication](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-452-principles-of-wireless-communications-spring-2006/) reference.
