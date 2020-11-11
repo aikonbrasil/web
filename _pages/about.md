@@ -29,7 +29,7 @@ Strong Messages with Short Phrases
 ======
 
 <div style="text-align: justify"> 
-When I finished my master degree program 12 years ago, I was not able to match many subjective definitions from the academy on the industrial world. So, many ideas and definitions were only suitable for books and academic references. However, most of them did not match with the real world. For this reason, I was taking a look outside this amazing bubble that lasted more than 10 years.
+When I finished my master degree program 12 years ago, I was not able to match many subjective definitions from the academy on the industrial world. So, many ideas and definitions were only suitable for books and academic references. However, I was not able to match them with the real world. For this reason, I was taking a look outside this amazing bubble that lasted more than 10 years.
 </div>
 
 <div style="text-align: justify"> 
