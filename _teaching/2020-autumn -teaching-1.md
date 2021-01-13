@@ -27,7 +27,7 @@ Pre-installation and ns3 environment
 
     Create an account in https://bitbucket.org
     
-	Send your account login to the following E-mail: dick.carrillo.melgarejo@lut.fi using the subject: "bitbucket-ns3-login".
+	Send your account login to the following E-mail: dick.carrillo.melgarejo[at]lut.fi using the subject: "bitbucket-ns3-login".
     
 	After you receive the confirmation of the access, you should run the following command in the Linux Console.
 	
