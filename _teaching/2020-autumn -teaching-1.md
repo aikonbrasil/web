@@ -21,7 +21,7 @@ Pre-installation and ns3 environment
 
 	This step is fundamental for the next activities. So, please feel free to contact me to the E-mail: dick.carrillo.melgarejo@lut.fi. I will be able to assist you by zoom, the idea is to solve any potential issue.
 
-[Environment](https://www.youtube.com/watch?v=dr9ghhDZVVA)
+[Video: Environment](https://www.youtube.com/watch?v=dr9ghhDZVVA)
 
 (2) Installing ns3:
 
@@ -48,7 +48,7 @@ Pre-installation and ns3 environment
 
     Use the following video as reference to install ns3: 
 
-[ns3 installation](https://www.youtube.com/watch?v=HT8vE9yatIg)
+[Video: ns3 installation](https://www.youtube.com/watch?v=HT8vE9yatIg)
 
 (Note: Use the playback option on 0.25 to check details).
 
