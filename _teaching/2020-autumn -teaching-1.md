@@ -13,14 +13,15 @@ This is an introductory course on simulation of cellular networks using ns3
 Pre-installation and ns3 environment
 ======
 
-(1) Installing the environment: As it was indicated in the reference lectures,  ns3 can be installed in any Linux Distribution, such as Ubuntu. However, in this course, we advice to use ArchLinux, which enables a transparent installation of ns3. We indicate to install this Linux distribution (ArchLinux) in a Virtual Machine, such as VirtualBox. To do it, you can use the diversity of tutorials in Youtube or you can follow the step-by-step tutorial indicated in the following video 
+(1) Installing the environment: 
+
+	As it was indicated in the reference lectures,  ns3 can be installed in any Linux Distribution, such as Ubuntu. However, in this course, we advice to use ArchLinux, which enables a transparent installation of ns3. We indicate to install this Linux distribution (ArchLinux) in a Virtual Machine, such as VirtualBox. To do it, you can use the diversity of tutorials in Youtube or you can follow the step-by-step tutorial indicated in the following video 
+
+	(Note: Use the playback option on 0.25 to check details).
+
+	This step is fundamental for the next activities. So, please feel free to contact me to the E-mail: dick.carrillo.melgarejo@lut.fi. I will be able to assist you by zoom, the idea is to solve any potential issue.
 
 [Environment](https://www.youtube.com/watch?v=dr9ghhDZVVA)
-
-(Note: Use the playback option on 0.25 to check details).
-
-This step is fundamental for the next activities. So, please feel free to contact me to the E-mail: dick.carrillo.melgarejo@lut.fi. I will be able to assist you by zoom, the idea is to solve any potential issue.
-
 
 (2) Installing ns3:
 
