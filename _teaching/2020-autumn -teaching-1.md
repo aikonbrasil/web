@@ -52,3 +52,5 @@ point-to-multipoint simulation
 
 Advanced scenarios on 4G/5G
 ======
+
+Adnvaced scenarios were created based on this branck of ns3 develope by NYU. They developed a representative mmWave channel model. Check the [Link:wwave-ns3](https://github.com/nyuwireless-unipd/ns3-mmwave). Details of the TRACES, which are important to generate the metrics for each system performance, can be found [here](https://github.com/nyuwireless-unipd/ns3-mmwave/wiki/ns3-mmWave-traces)
