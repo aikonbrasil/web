@@ -12,9 +12,45 @@ This is an introductory course on simulation of cellular networks using ns3
 
 Pre-installation and ns3 environment
 ======
-[Environment](https://www.youtube.com/watch?v=dr9ghhDZVVA)
 
-[ns3 installation](https://www.youtube.com/watch?v=HT8vE9yatIg)
+(1) Installing the environment: 
+
+	As it was indicated in the reference lectures,  ns3 can be installed in any Linux Distribution, such as Ubuntu. However, in this course, we advice to use ArchLinux, which enables a transparent installation of ns3. We indicate to install this Linux distribution (ArchLinux) in a Virtual Machine, such as VirtualBox. To do it, you can use the diversity of tutorials in Youtube or you can follow the step-by-step tutorial indicated in the following video 
+
+	(Note: Use the playback option on 0.25 to check details).
+
+	This step is fundamental for the next activities. So, please feel free to contact me to the E-mail: dick.carrillo.melgarejo@lut.fi. I will be able to assist you by zoom, the idea is to solve any potential issue.
+
+[Video: Environment](https://www.youtube.com/watch?v=dr9ghhDZVVA)
+
+(2) Installing ns3:
+
+    Create an account in https://bitbucket.org
+    
+	Send your account login to the following E-mail: dick.carrillo.melgarejo[at]lut.fi using the subject: "bitbucket-ns3-login".
+    
+	After you receive the confirmation of the access, you should run the following command in the Linux Console.
+	
+    $ git clone https://dcarrillom@bitbucket.org/dcarrillom/lut2020ns3.git
+    
+	Install some dependencies, such as Python and Python-matplotlib. In the particular case of ArchLinux, to install them you should run the following in the command line:
+	
+    $ sudo pacman -S python python-matplotlib
+    
+	In the Linux console, you should write the following:
+    
+	$ cd lut2020ns3
+    $ ./waf clean
+    $ ./waf configure --build-profile=debug --enable-examples --enable-tests
+    $ ./waf build
+    As initial delivery, which should be added to the task of Sec. 5.1, please run the following and indicate the output message.
+    $ ./waf --run first
+
+    Use the following video as reference to install ns3: 
+
+[Video: ns3 installation](https://www.youtube.com/watch?v=HT8vE9yatIg)
+
+(Note: Use the playback option on 0.25 to check details).
 
 General Concepts of Wireless Communication
 ======
