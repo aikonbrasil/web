@@ -1,7 +1,7 @@
 ---
 title: "Reconfigurable Intelligent Surface-Aided Grant-Free Access for Uplink URLLC"
 collection: publications
-permalink: /publication/2020-03-19-paper-title-number-3
+permalink: /publication/2020-03-19-RIS-GrantFree-URLLC
 excerpt: 'Reconfigurable intelligent surfaces (RISs) have been recently considered as one of the emerging technologies for future communication systems by leveraging the tuning capabilities of their reflecting elements. In this paper, we investigate the potential of an RIS-based architecture for uplink sensor data transmission in an ultra-reliable low-latency communication (URLLC) context. In particular, we propose an RIS-aided grant-free access scheme for an industrial control scenario, aiming to exploit diversity and achieve improved reliability performance. We consider two different resource allocation schemes for the uplink transmissions, i.e., dedicated and shared slot assignment, and three different receiver types, namely the zero-forcing, the minimum mean squared error (MMSE), and the MMSE-successive interference cancellation receivers. Our extensive numerical evaluation in terms of outage probability demonstrates the gains of our approach in terms of reliability, resource efficiency, and capacity and for different configurations of the RIS properties. An RIS-aided grant-free access scheme combined with advanced receivers is shown to be a well-suited option for uplink URLLC.'
 date: 2020-03-19
 venue: '2020 2nd 6G Wireless Summit (6G SUMMIT)'
