@@ -1,7 +1,7 @@
 ---
 title: "Achievable Sum Rate and Outage Capacity of GFDM Systems with MMSE Receivers"
 collection: publications
-permalink: /publication/2020-06-01-paper-title-number-2
+permalink: /publication/2020-06-01-GFDM-SumRate-MMSE
 excerpt: 'This paper investigates the achievable sum rate and the outage capacity of generalized frequency division multiplexing systems (GFDMs) with minimum mean-square error (MMSE) receivers over frequency-selective Rayleigh fading channels. To this end, a Gamma-based approximation approach for the probability density function of the signal-to-interference-plus-noise ratio is presented, based on which accurate analytical formulations for the achievable sum rate and outage capacity are proposed. The accuracy of our analysis is corroborated through Monte Carlo simulation assuming different GFDM parameters. Illustrative numerical results are depicted in order to reveal the impact of the key system parameters, such as the number of subcarriers, number of subsymbols, and roll-off factors, on the overall system performance.'
 date: 2020-06-01
 venue: 'ICC 2020 - 2020 IEEE International Conference on Communications (ICC)'
