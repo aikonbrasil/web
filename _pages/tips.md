@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: talk
 title: "Tips"
 permalink: /tips/
 author_profile: false
