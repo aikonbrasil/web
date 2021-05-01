@@ -14,7 +14,7 @@ First Router Configuration
 ![GRE Router 1](http://aikonbrasil.github.io/web/images/gre_1.png)
 
 Second Router Configuration
-![GRE Router 2](http://aikonbrasil.github.io/web/images/gre_2.png)
+![GRE Router 2](http://aikonbrasil.github.io/web/images/gre_2.PNG)
 
 
 
