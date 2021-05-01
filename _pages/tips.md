@@ -1,5 +1,5 @@
 ---
-layout: talk
+layout: splash
 title: "Tips"
 permalink: /tips/
 author_profile: false
