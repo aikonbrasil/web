@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Technical Guide"
-permalink: /engineering/
+title: "Tips"
+permalink: /tips/
 author_profile: false
 redirect_from:
   - /resume
