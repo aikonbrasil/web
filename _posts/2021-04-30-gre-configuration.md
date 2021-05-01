@@ -8,7 +8,9 @@ tags:
   - L2
 ---
 
-In every communication network, the transport layer plays a fundamental rule. Usually these communication networks are a conjunction of many networks. In parallel, some protocols, such as IEC-61850 transport specific messages with special requirements. For instance, SV message is transmitted on L2 in order to increase latency using in most of the cases UDP packages. For this setup, it is mandatory to create specific tunnels at L2. One option to handle this type of tunnels is Generic Routing Encapsulation (GRE).
+In every communication network, the transport layer plays a fundamental rule. Usually these communication networks are a conjunction of many networks. In parallel, some protocols, such as IEC-61850, transport specific messages with special requirements. For instance, sampled values (SV) message is transmitted over L2 in order to reduce latency using in most of the cases UDP packages. For this setup, it is mandatory to create specific tunnels at L2. One option to handle this type of tunnels is Generic Routing Encapsulation (GRE).
+
+Here, the following configuration was used to deploy a GRE Tunnel:
 
 First Router Configuration
 ![GRE Router 1](http://aikonbrasil.github.io/web/images/gre_1.png)
