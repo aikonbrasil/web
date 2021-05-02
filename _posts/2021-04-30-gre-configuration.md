@@ -11,6 +11,9 @@ tags:
 
 What is a L2 Tunnel for ?
 ======
+
+![System Model - GRE](http://aikonbrasil.github.io/web/images/GRE_Tunnel)
+
 In every communication network, the transport layer plays a fundamental rule. Usually these communication networks are a conjunction of many networks. In parallel, some protocols, such as IEC-61850, transport specific messages with special requirements. For instance, sampled values (SV) message is transmitted over L2 in order to reduce latency using in most of the cases UDP packages. For this setup, it is mandatory to create specific tunnels at L2. One option to handle this type of tunnels is Generic Routing Encapsulation (GRE), other option is to use L2TP.
 
 
