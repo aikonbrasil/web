@@ -26,11 +26,15 @@ Specific information of the layout used in the lab setup.
 
 Here, the following configuration was used to deploy a GRE Tunnel:
 
-First Router Configuration
+First Router Configuration (R1)
 ------
 ![GRE Router 1](http://aikonbrasil.github.io/web/images/gre_1.png)
+and the following routing police in R1
+![routing policy in router 1](http://aikonbrasil.github.io/web/images/ssh_gre_1.png)
 
-Second Router Configuration
+Second Router Configuration (R2)
 ------
 ![GRE Router 2](http://aikonbrasil.github.io/web/images/gre_2.PNG)
+and the following routing police in R2
+![routing policy in router 2](http://aikonbrasil.github.io/web/images/ssh_gre_2.png)
 
