@@ -22,8 +22,7 @@ How to set up a L2 Tunnel ?
 
 The main important thing is to get a good understanding of the networks that you are trying to connect through GRE. Usually the configuration is done between the routers (R1 and R2) that are connected in a specific WAN, the Tunnel will pass over this WAN in order to connect the respective LANs.
 
-TO BE ADDED
-------
+
 
 Specific information of the layout used in the lab setup.
 
