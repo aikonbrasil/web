@@ -10,7 +10,7 @@ tags:
   - L2
 ---
 
-Abstract: This is a configured used in a real setup to solve a network issue to connect two different sub-nets using two routers R1 and R2.
+Abstract: This is a configured used in a real setup to solve a network issue to connect two different sub-nets using two routers R1 and R2 on L2 Layer.
 
 What is a L2 Tunnel for ?
 ======
