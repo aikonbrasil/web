@@ -17,5 +17,5 @@ Every day there are some tips that I am sure can be useful to my self and also c
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% include year-archive.html %}
+  {% include archive-single.html %}
 {% endfor %}
