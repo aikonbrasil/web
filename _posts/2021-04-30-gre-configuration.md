@@ -48,5 +48,4 @@ and the following routing police in R2
 
 ![routing policy in router 2](http://aikonbrasil.github.io/web/images/ssh_gre_2.PNG)
 
-Note: Most of the routing commands can be added by CLI or Webinterface configuration of each router. If necessary use Linux commands in the laptop, such as: `sudo ip route add PREFIX via address dev interface`  [network commands in Linux](https://wiki.archlinux.org/title/Network_configuration)
-
+Note: Most of the routing commands can be added by CLI or Webinterface configuration of each router. If necessary use Linux commands in the laptop, such as: `sudo ip route add PREFIX via address dev interface` check in [network commands in Linux](https://wiki.archlinux.org/title/Network_configuration){:target="_blank"}
