@@ -30,11 +30,11 @@ First Router Configuration (R1)
 ------
 ![GRE Router 1](http://aikonbrasil.github.io/web/images/gre_1.png)
 and the following routing police in R1
-![routing policy in router 1](http://aikonbrasil.github.io/web/images/ssh_gre_1.png)
+![routing policy in router 1](http://aikonbrasil.github.io/web/images/ssh_gre_1.PNG)
 
 Second Router Configuration (R2)
 ------
 ![GRE Router 2](http://aikonbrasil.github.io/web/images/gre_2.PNG)
 and the following routing police in R2
-![routing policy in router 2](http://aikonbrasil.github.io/web/images/ssh_gre_2.png)
+![routing policy in router 2](http://aikonbrasil.github.io/web/images/ssh_gre_2.PNG)
 
