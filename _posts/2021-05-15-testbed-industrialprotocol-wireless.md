@@ -52,7 +52,7 @@ sudo vim /etc/fstab
 
 and edit the configuration file with the following setup
 
-```sh
+```
 
 /dev/sda1	/home/lut/extdrive	vfat 	user,rw
 ```
