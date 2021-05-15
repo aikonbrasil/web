@@ -57,4 +57,4 @@ and edit the configuration file with the following setup
 /dev/sda1	/home/lut/extdrive	vfat 	user,rw
 ```
 
-Now the external hard drive can be used by any user with write and read rights, it can be mounted with a simple ´´´ mount extdrive  ´´´ (extdrive is a folder that you created in the path of your wish)
+Now the external hard drive can be used by any user with write and read rights, it can be mounted with a simple `mount extdrive` (extdrive is a folder that you created in the path of your wish)
