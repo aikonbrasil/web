@@ -36,25 +36,20 @@ An embedded system was deployed on each node. Each embedded system is using Arch
 Setting up the external usb drive
 -----
 
-1. create a Linux filesystem (GPT) on the new hard drive and format it as VFAT.  
+* create a Linux filesystem (GPT) on the new hard drive and format it as VFAT, check [Formatting and Partition on Linux](https://wiki.archlinux.org/title/File_systems#Create_a_file_system).  The new partition should be `(20) Linux Filesystem` 
+
+* format the new filesystem as ext4 format with the following shell command `mkfs.ext4 /dev/root_partition`
+
+* mount the file system with the command `mount /dev/sda1 extdrive` and after that run the following `sudo chown lut extdrive` to enable lut user to work on the new mounted drive. 
 
 
-```sh
-sudo mkfs.vfat /dev/sda1
-```
-
-2. edit the fstab configuration file  
-
-```sh
-
-sudo vim /etc/fstab
-```
-
-and edit the configuration file with the following setup
+Optional:
+-----
+* edit the fstab configuration fstab file 'sudo vim /etc/fstab' and add the following
 
 ```
 
 /dev/sda1	/home/lut/extdrive	vfat 	user,rw
 ```
 
-Now the external hard drive can be used by any user with write and read rights, it can be mounted with a simple `mount extdrive` command (extdrive is a folder that you created in the path of your wish)
+Now the external hard drive can be used by any user with write and read rights.
