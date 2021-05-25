@@ -20,9 +20,10 @@ To characterize the time-variant multipath channel statistically. So, let us exa
 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=s%28t%29%3DRe%5Bs_t%28t%29%20e%5E%7Bj2%20%5Cpi%20f_c%20t%7D%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+![\Large s(t)=Re\bigg[ s_t(t)](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
 
 
 Creating the DB platform
