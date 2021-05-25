@@ -29,6 +29,8 @@ it follows that the equivalent low-pass received signal is
 
 ![\mathcal{C}(\tau;t)=\sum_n \alpha_n(t)e^{-j2\pi f_c\tau_n(t)} \delta[\tau-\tau_n(t)]](https://latex.codecogs.com/svg.latex?\Large&space; \mathcal{C}(\tau;t)=\sum_n \alpha_n(t)e^{-j2\pi f_c\tau_n(t)} \delta[\tau-\tau_n(t)])
 
+when the equivalent low-pass received signal, is analyzed as a tropospheric scatter channel, the previous model is replicated, but in the continuum multipath domain. It is expected  that (https://latex.codecogs.com/svg.latex?\; \alpha_n(t)) and (https://latex.codecogs.com/svg.latex?\; \tau_n(t)) change sufficiently at different rates and in an unpredictable manner. 
+
 
 Creating the DB platform
 -------
