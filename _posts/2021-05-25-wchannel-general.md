@@ -19,7 +19,11 @@ Fading Multipath Channels
 To characterize the time-variant multipath channel statistically. So, let us examine the effects of the channel on a transmitted signal that is represented as
 
 
-![\Large x-1=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;s(t)=Re\left[s_l(t)e^{j2\pi f_ct}\right]) 
+![s(t)=Re\left[s_l(t)e^{j2\pi f_ct}\right]](https://latex.codecogs.com/svg.latex?\Large&space;s(t)=Re\left[s_l(t)e^{j2\pi f_ct}\right]) 
+
+Assuming a multiple propagation paths, a propagation delay and an attenuation factor is considered for each path, both are time-variant because the changes in the medium. For this reason, the received band-pass may be expressed as
+
+![x(t)=\sum_n \alpha_n(t) s[t-\tau_n(t)]](https://latex.codecogs.com/svg.latex?\Large&space; x(t)=\sum_n \alpha_n(t) s[t-\tau_n(t)] )
 
 
 Creating the DB platform
