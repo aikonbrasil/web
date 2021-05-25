@@ -33,10 +33,9 @@ when the equivalent low-pass received signal, is analyzed as a tropospheric scat
 
 As a consequence on signal ![r_l(t)](https://latex.codecogs.com/svg.latex?\;r_l(t)), the multiplath propagation model will result in signal fading. The fading phenomenon is a result of time variant of the phase and in the amplitude (<em> signal fading </em>). Which are due to the time-variant multipath characteristics of the channel.
 
-When the impulse response ![c(tau,t)](https://latex.codecogs.com/svg.latex?\;\mathcal{C}(\tau, t)) aims to model  a moving scattererers scenario, it is modeled as a zero-mean complex-valued Gaussian process, the envelope ![c(tau,t)](https://latex.codecogs.com/svg.latex?\;Abs(\mathcal{C}(\tau,t))) is Rayleigh-distributed (<em> Rayleigh fading channel</em>). In the event that there are fixed scatterers or signal reflectors in the medium, in addition to randomly moving scatterrersm, the envelope ![c(tau,t)](https://latex.codecogs.com/svg.latex?\;Abs(\mathcal{C}(\tau, t))) has a Rice distribution (<em> Ricean fading channel</em>)
+When the impulse response ![c(tau,t)](https://latex.codecogs.com/svg.latex?\;\mathcal{C}(\tau, t)) aims to model  a moving scattererers scenario, it is modeled as a zero-mean complex-valued Gaussian process, the envelope ![c(tau,t)](https://latex.codecogs.com/svg.latex?\;Abs(\mathcal{C}(\tau,t))) is Rayleigh-distributed (<em> Rayleigh fading channel</em>). In the event that there are fixed scatterers or signal reflectors in the medium, in addition to randomly moving scatterers, the envelope ![c(tau,t)](https://latex.codecogs.com/svg.latex?\;Abs(\mathcal{C}(\tau, t))) has a Rice distribution (<em> Ricean fading channel</em>)
 
 
-![c(tau,t)](https://latex.codecogs.com/svg.latex?\;\mathcal{C}(\tau, t))
 
 Creating the DB platform 
 -------
