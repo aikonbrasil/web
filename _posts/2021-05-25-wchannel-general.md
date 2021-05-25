@@ -27,7 +27,7 @@ Assuming a multiple propagation paths, a propagation delay and an attenuation fa
 
 it follows that the equivalent low-pass received signal is 
 
-![\mathcal{\tau;t}=\sum_n \alpha_n(t)e^{-j2\pi f_c\tau_n(t)} \delta[\tau-\tau_n(t)]]
+![\mathcal{\tau;t}=\sum_n \alpha_n(t)e^{-j2\pi f_c\tau_n(t)} \delta[\tau-\tau_n(t)]](https://latex.codecogs.com/svg.latex?\Large&space; \mathcal{\tau;t}=\sum_n \alpha_n(t)e^{-j2\pi f_c\tau_n(t)} \delta[\tau-\tau_n(t)])
 
 
 Creating the DB platform
