@@ -24,87 +24,87 @@ The Pandaboard is running the ARM version of ArchLinux, the installation is deta
 Softwares and Setup on ArchLinux
 =======
 
-1. INSTALLING  hostapd:
++ INSTALLING  hostapd:
 
-pacman -S hostapd 
-
-
-Adjust the options in hostapd configuration file if necessary. Especially, change the ssid and the wpa_passphrase. See hostapd Linux documentation page for more information.
-
-/etc/hostapd/hostapd.conf
-
-```sh
-ssid=COVID19
-country_code=FI
-interface=wlan0_ap
-bridge=br0
-ssid=YourWiFiName
-country_code=US
-hw_mode=g
-channel=7
-max_num_sta=5
-wpa=2
-auth_algs=1
-wpa_pairwise=CCMP
-wpa_key_mgmt=WPA-PSK
-wpa_passphrase=Somepassphrase
-logger_stdout=-1
-logger_stdout_level=2
-```
-
-2. INSTALLING dhcp
+    ```pacman -S hostapd```  
 
 
-pacman -S dhcp
+    Adjust the options in hostapd configuration file if necessary. Especially, change the ssid and the wpa_passphrase. See hostapd Linux documentation page for more information.
+
+    /etc/hostapd/hostapd.conf
+
+    ```sh
+    ssid=COVID19
+    country_code=FI
+    interface=wlan0_ap
+    bridge=br0
+    ssid=YourWiFiName
+    country_code=US
+    hw_mode=g
+    channel=7
+    max_num_sta=5
+    wpa=2
+    auth_algs=1
+    wpa_pairwise=CCMP
+    wpa_key_mgmt=WPA-PSK
+    wpa_passphrase=Somepassphrase
+    logger_stdout=-1
+    logger_stdout_level=2
+    ```
+
++ INSTALLING dhcp
 
 
-adjust the configuration file: /etc/dhcpd.conf
+    ```pacman -S dhcp```
 
 
-```sh
-option domain-name-servers 8.8.8.8, 8.8.4.4;
-subnet 192.168.123.0 netmask 255.255.255.0{
-}
-
-subnet 192.168.123.0 netmask 255.255.255.0{
-  range 192.168.123.150 192.168.123.160;
-}
-```
-
-3. Getting default initialization to WiFi Interface
+    adjust the configuration file: /etc/dhcpd.conf
 
 
-Create a static configuration for WLAN doing the following:
+    ```sh
+    option domain-name-servers 8.8.8.8, 8.8.4.4;
+    subnet 192.168.123.0 netmask 255.255.255.0{
+    }
+
+    subnet 192.168.123.0 netmask 255.255.255.0{
+    range 192.168.123.150 192.168.123.160;
+    }
+    ```
+
++ Getting default initialization to WiFi Interface
 
 
-Board $> cat /lib/systemd/network/hostapd.network
-
-```sh
-[Match]
-Name=wlan0
-
-[Network]
-Address=192.168.72.1/24
-DHCPServer=yes
-IPForward=ipv4
-IPMasquerade=yes
-```
+    Create a static configuration for WLAN doing the following:
 
 
-4. CONFIGURING IPTABLES (NAT)
+    Board $> cat /lib/systemd/network/hostapd.network
+
+    ```sh
+    [Match]
+    Name=wlan0
+
+    [Network]
+    Address=192.168.72.1/24
+    DHCPServer=yes
+    IPForward=ipv4
+    IPMasquerade=yes
+    ```
 
 
-NOTE: it should be done after the WLAN interface got an IP.
++ CONFIGURING IPTABLES (NAT)
 
-```sh
-sysctl net.ipv4.ip_forward=1
-iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
-iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT 
-```
 
-5. Enabling Daemons
+    NOTE: it should be done after the WLAN interface got an IP.
 
-```sh
-systemctl enable dhcpd4.service
-systemctl enable hostapd.service
-```
+    ```sh
+    sysctl net.ipv4.ip_forward=1
+    iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+    iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT 
+    ```
+
++ Enabling Daemons
+
+    ```sh
+    systemctl enable dhcpd4.service
+    systemctl enable hostapd.service
+    ```
