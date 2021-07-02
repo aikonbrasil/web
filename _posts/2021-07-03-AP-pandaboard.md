@@ -24,7 +24,7 @@ The Pandaboard is running the ARM version of ArchLinux, the installation is deta
 Softwares and Setup on ArchLinux
 =======
 
-+ INSTALLING  hostapd:
++ ***INSTALLING  hostapd:***
 
     ```pacman -S hostapd```  
 
@@ -52,7 +52,7 @@ Softwares and Setup on ArchLinux
     logger_stdout_level=2
     ```
 
-+ INSTALLING dhcp
++ ***INSTALLING dhcp***
 
 
     ```pacman -S dhcp```
@@ -71,7 +71,7 @@ Softwares and Setup on ArchLinux
     }
     ```
 
-+ Getting default initialization to WiFi Interface
++ ***Getting default initialization to WiFi Interface***
 
 
     Create a static configuration for WLAN doing the following:
@@ -91,7 +91,7 @@ Softwares and Setup on ArchLinux
     ```
 
 
-+ CONFIGURING IPTABLES (NAT)
++ ***CONFIGURING IPTABLES (NAT)***
 
 
     NOTE: it should be done after the WLAN interface got an IP.
@@ -102,7 +102,7 @@ Softwares and Setup on ArchLinux
     iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT 
     ```
 
-+ Enabling Daemons
++ ***Enabling Daemons***
 
     ```sh
     systemctl enable dhcpd4.service
