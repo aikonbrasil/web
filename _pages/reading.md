@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Current Reading Books"
-permalink: /reading-books/
+permalink: /reading/
 author_profile: true
 redirect_from:
   - /resume
