@@ -29,12 +29,12 @@ Building the Development environment in Windows
   <li>Installing VirtualBox and MiniConda:</li>
 
 
-* Installing  **[VirtualBox](https://www.virtualbox.org/wiki/Downloads)**.
-* Installing  **[MiniConda](https://docs.conda.io/en/latest/miniconda.html)**.
+* Installing  [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+* Installing  [MiniConda](https://docs.conda.io/en/latest/miniconda.html).
 
   <li>Installing Jupyter in Miniconda Console</li>
 
-> `$ conda install -c conda-forge jupyterlab`
+> ```$ conda install -c conda-forge jupyterlab```
 
   <li>Third item</li>
   <li>Fourth item</li>
