@@ -29,9 +29,9 @@ Building the Development environment in Windows
   <li>Installing VirtualBox and MiniConda:</li>
 
 
-* Installing [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+ Installing [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 
-* Installing [MiniConda](https://docs.conda.io/en/latest/miniconda.html).
+ Installing [MiniConda](https://docs.conda.io/en/latest/miniconda.html).
 
   <li>Installing Jupyter in Miniconda Console</li>
 
