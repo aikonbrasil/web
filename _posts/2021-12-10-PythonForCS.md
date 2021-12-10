@@ -22,24 +22,23 @@ As a complement, I highlight critical tips based on tools, such as Docker and Co
 
 
 
+
+
 Building the Development environment in Windows
 =======
 
-<ol>
-  <li>Installing VirtualBox and MiniConda:</li>
+1. Installing VirtualBox and MiniConda.
+    
+    * Installing [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+
+    * Installing [MiniConda](https://docs.conda.io/en/latest/miniconda.html).
+
+2. Installing Jupyter in Miniconda Console:
+    
+    >  ``` conda install -c conda-forge jupyterlab```
 
 
- Installing [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 
- Installing [MiniConda](https://docs.conda.io/en/latest/miniconda.html).
-
-  <li>Installing Jupyter in Miniconda Console</li>
-
-> ``` conda install -c conda-forge jupyterlab```
-
-  <li>Third item</li>
-  <li>Fourth item</li>
-</ol> 
 
 
 Keynote: What is CE marking?
