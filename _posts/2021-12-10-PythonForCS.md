@@ -34,7 +34,11 @@ Building the Development environment in Windows
     * Installing [MiniConda](https://docs.conda.io/en/latest/miniconda.html).
 
 2. Installing Jupyter in Miniconda Console:
-    >  ``` conda install -c conda-forge jupyterlab```
+    >  ``` conda install -c conda-forge jupyterlab ```
+
+    and run Jupyter with the following command line:
+
+    > ``` jupyter lab --no-browser --port=8889 ```
 
 
 
