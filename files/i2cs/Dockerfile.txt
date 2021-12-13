@@ -1,0 +1,9 @@
+FROM python:latest
+
+RUN pip install fmiopendata meteocalc pyyaml requests
+
+COPY app.py /app/app.py
+WORKDIR /app
+
+CMD ["python", "app.py"]
+
