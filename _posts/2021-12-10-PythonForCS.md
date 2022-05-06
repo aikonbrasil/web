@@ -40,7 +40,11 @@ Building the Development environment in Windows
 
     > ``` jupyter lab --no-browser --port=8889 ```
 
+    access the Jupyter environment using the URL that you will receive as output of the previous command. Something like the following output: ```http://localhost:8889/lab?token=f679fdab36355faf87cf1739d675ebbd2a973d4b1cb81799```.
 
+3. Load VirtualBox images for Debian (or any other Linux distribution), for example [VirtualBox Image](https://www.osboxes.org/debian/).
+
+4. 
 
 
 
