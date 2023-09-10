@@ -17,21 +17,28 @@ Education
 ======
 * B.S. in Electrical and Electronics Engineering, San Marcos National University, 2004
 * M.S. in Electrical Engineering, the Pontifical Catholic University of Rio de Janeiro, 2008
-* Ph.D in Electrical Engineering, LUT University/UNICAMP, 2022 (expected)
+* Ph.D in Electrical Engineering, UNICAMP, September 2023 (expected)
+* Doctor in Technology, LUT University, September 2023 (expected)
 
 Work experience
 ======
-* 2008-2010: Research Engineer
-  * INDT (Nokia Institute of Technology)
-  * Duties included: System Model Simulation of Cellular Networks
+* 2022 - On going: Senior Standardization Specialist in AIML
+    * Nokia Solutions & Networks
+    * Duties included: RAN1 Delegate in 3GPP Rel. 18 Study Item on AIML Air Interface
+
+* 2018 - On going: Researcher
+  * LUT University (Lappeenranta University of Technology)
+  * Duties include: Academic Research on Wireless Communication Supporting Automation and Power System use cases. Supporting Technical Assistance to the Private Cellular Network available at the University. Consultancy on general topics that involves wireless communications, specially based on commercial and standardized technologies.
+
 
 * 2010-2018: Senior Research Engineer
   * CPqD (Center for Research and Development)
   * Duties included: System integration on the development process of LTE/LTE-A cellular network solutions in Rural Scenarios. Full protocol stack architect definitions. Implementation of test-beds using insights of cognitive network on WiFi Networks. Development of cellular connectivity on 250 MHz band.
 
-* 2018 - On going: Researcher
-  * LUT University (Lappeenranta University of Technology)
-  * Duties include: Academic Research on Wireless Communication Supporting Automation and Power System use cases. Supporting Technical Assistance to the Private Cellular Network available at the University. Consultancy on general topics that involves wireless communications, specially based on commercial and standardized technologies.
+* 2008-2010: Research Engineer
+  * INDT (Nokia Institute of Technology)
+  * Duties included: System Model Simulation of Cellular Networks
+
   
 Skills
 ======
