@@ -188,6 +188,18 @@ collections:
 
 # Defaults
 defaults:
+  # _postsblog
+  - scope:
+      path: ""
+      type: postsblog
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      read_more: true
   # _posts
   - scope:
       path: ""
