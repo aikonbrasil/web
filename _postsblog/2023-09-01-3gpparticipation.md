@@ -1,6 +1,6 @@
 ---
 title: '3GPP Standardization meetings'
-date: 2023-09-12
+date: 2023-09-01
 permalink: /tips/2023/09/3gpp/
 author_profile: false
 read_more: enabled
