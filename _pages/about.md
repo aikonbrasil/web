@@ -11,11 +11,11 @@ redirect_from:
 A brief Biography
 ======
 <div style="text-align: justify"> 
-My name is Dick Carrillo Melgarejo and welcome to my CV page. I am an Engineer with experience on Wireless Communication by more than 15 years. All this time was shared between academy and industry. In my Master I worked with OFDM and non-linear systems, and now in my PhD I am studying GFDM, Grant-free access, reconfigurable intelligent surfaces, and cell-free massive MIMO.
+My name is Dick Carrillo Melgarejo, and welcome to my CV page. I am an Engineer with experience on Wireless Communication by more than 18 years. All this time was shared between the academy and industry. In my Master's, I worked with OFDM and non-linear systems, and now, in my Ph.D., I proposed a RAN Slicing Framework based on Machine Learning to enable IEC 61850 (a power grid substation protocol). My interest research topics are OFDM, GFDM, Grant-free access, reconfigurable intelligent surfaces, cell-free massive MIMO, and machine learning applications on wireless communication.
 </div>
 
 <div style="text-align: justify"> 
-Nowadays, I am doing a double degree PhD program at LUT University from Finland and UNICAMP from Brazil. My Master degree in Electrical Engineering was done in the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done in San Marcos National University, in Lima, Perú.
+I have a Ph.D. in Electrical Engineering from UNICAMP University (Brazil) and a Doctorate in Engineering from LUT University (Finland). My Master's degree in Electrical Engineering was done at the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done at San Marcos National University in Lima, Perú.
 </div>
 
 <div style="text-align: justify"> 
