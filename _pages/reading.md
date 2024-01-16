@@ -1,14 +1,22 @@
 ---
 layout: archive
-title: "Current Reading Books"
-permalink: /reading/
-author_profile: true
+permalink: /state-of-the-art/
+title: "State of the art"
+author_profile: false
+read_more: enabled
+redirect_from:
+  - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
+The state of the art that is part of my current research work are shared in this page to friendly view.
 
-{% for post in site.knowhow reversed %}
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.knowhow %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
-
-**HOLA
