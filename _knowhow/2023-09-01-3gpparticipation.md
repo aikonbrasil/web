@@ -1,77 +1,22 @@
 ---
-title: '3GPP Standardization meetings'
-date: 2023-09-01
-permalink: /tips/2023/09/3gpp/
+title: 'Elements of Reinforcement Learning'
+date: 2022-01-02
+permalink: /knowhow/DRL/
 author_profile: false
 read_more: enabled
 tags:
-  - 5G
-  - 4G
-  - LTE
-  - Wireless
-  - Real Networks
+  - machine learning
+  - reinforcement learning
 ---
 
-***Abstract:*** Participating in 3GPP meetings was a wonderful experience that enhanced my career development and networking. Here, I am listing the current 3GPP RAN1 meetins in which I have participated until September 2023.
+***Abstract:*** Relevant information on reinforcement learning is shared in this page.
 
-3GPP RAN1#109-e
+Resources
 ======
 
-![Badge RAN1#109-e](http://aikonbrasil.github.io/web/images/3gppbadges/0_badge_RAN1_109e.PNG)
+there is a list of resources from this [public link ](http://bit.ly/drlndlinks). In addition two books are suggested as complementary information
+* [Reinforcement Learning Book](https://livebook.manning.com/book/grokking-deep-reinforcement-learning?origin=order-confirmation) by Grokking.
+* [Introduction to RL](http://go.udacity.com/rl-textbook) by R. Sutton.
 
 
 
-3GPP RAN1#110
-======
-
-![Badge RAN1#110](http://aikonbrasil.github.io/web/images/3gppbadges/1_badge_RAN1_110.PNG)
-
-
-
-3GPP RAN1#110-bis-e
-======
-
-![Badge RAN1#110-bis-e](http://aikonbrasil.github.io/web/images/3gppbadges/2_badge_RAN1_110_bis_e.PNG)
-
-
-
-
-3GPP RAN1#111
-======
-
-![Badge RAN1#111](http://aikonbrasil.github.io/web/images/3gppbadges/3_badge_RAN1_111.PNG)
-
-
-
-
-3GPP RAN1#112
-======
-
-![Badge RAN1#112](http://aikonbrasil.github.io/web/images/3gppbadges/4_badge_RAN1_112.PNG)
-
-
-
-
-3GPP RAN1#112-bis-e
-======
-
-![Badge RAN1#112-bis-e](http://aikonbrasil.github.io/web/images/3gppbadges/5_badge_RAN1_112bise.PNG)
-
-
-
-
-3GPP RAN1#113
-======
-
-![Badge RAN1#113](http://aikonbrasil.github.io/web/images/3gppbadges/6_badge_RAN1_113.PNG)
-
-
-
-3GPP RAN1#114
-======
-
-![Badge RAN1#114](http://aikonbrasil.github.io/web/images/3gppbadges/7_badge_RAN1_114.PNG)
-
-
-      
-         
