@@ -1,11 +1,11 @@
 ---
 layout: archive
-permalink: /state-of-the-art/
+permalink: /reading/
 title: "State of the art"
 author_profile: false
 read_more: enabled
 redirect_from:
-  - /wordpress/blog-posts/
+  - /wordpress/knowhow/
 ---
 
 The state of the art that is part of my current research work are shared in this page to friendly view.
