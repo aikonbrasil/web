@@ -3,8 +3,6 @@ layout: archive
 title: "Current Reading Books"
 permalink: /reading/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 
