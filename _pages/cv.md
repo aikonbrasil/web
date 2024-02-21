@@ -24,7 +24,9 @@ Work experience
 ======
 * 2022 - On going: Senior Standardization Specialist in AIML
     * Nokia Solutions & Networks
-    * Duties included: RAN1 Delegate in 3GPP Rel. 18 Study Item on AIML Air Interface
+    * Duties included: 
+      * RAN1 Delegate in 3GPP Rel. 18 Study Item on AIML Air Interface
+      * RAN1 Delegate in 3GPP Rel. 19 Work Item on AIML Air Interface
 
 * 2018 - On going: Researcher
   * LUT University (Lappeenranta University of Technology)
