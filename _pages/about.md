@@ -15,7 +15,7 @@ My name is Dick Carrillo Melgarejo, and welcome to my CV page. I am an Engineer 
 </div>
 
 <div style="text-align: justify"> 
-I received a Ph.D. in Electrical Engineering from UNICAMP University (Brazil) and a Doctorate in Engineering from LUT University (Finland). My Master's degree in Electrical Engineering was done at the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done at San Marcos National University in Lima, Perú.
+I have a Ph.D. in Electrical Engineering from UNICAMP University (Brazil) and a Doctorate in Engineering from LUT University (Finland). My Master's degree in Electrical Engineering was done at the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done at San Marcos National University in Lima, Perú.
 </div>
 
 <div style="text-align: justify"> 
