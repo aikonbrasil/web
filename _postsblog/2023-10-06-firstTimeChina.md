@@ -11,6 +11,7 @@ tags:
 
 ***Abstract:*** This is a brief summary of my first traveling to China. The intinerary starts from Hong Kong and later to Xiamen. This trip was done in October of 2023.
 
+<div style="text-align: justify">
 Starting point
 ======
 
@@ -26,7 +27,7 @@ Overnight in Hong Kong
 ======
 Before my trip, several options were considered, including travel to China continental by airplane. However, the logistic and costs were more accessible traveling by train. 
 
-<div style="text-align: justify">
+
 As commented before, the fly from Finland arrived in the evening and because the lack of know how of Hong Kong, the decision was to overninght in a hotel that is around the International airport. Thus, the unique task to do in the arrival was to identify the Shuttle service of the hotel that I selected to overnight. I recall that it was at some meters from the main airport exit, walking to the right side and waiting few minutes. If I recall well, the frequency of the shuttle service was at every 30 minutes.  
 </div>
 
