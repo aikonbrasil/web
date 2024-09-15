@@ -1,0 +1,4 @@
+name: jupyterlab-debugger
+channels:
+  - defaults
+prefix: /home/dickcm/.conda/envs/jupyterlab-debugger
