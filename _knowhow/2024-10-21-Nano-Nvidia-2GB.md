@@ -20,3 +20,5 @@ By now, the Nvidia-Nano-2B is already waiting for the next components, such as c
 [Nvidia-Nano-2G](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit) outdated information, but still valid. The hardware is not anymore available, but the intention is to buy later an advanved version, such as these new [Nano boards](https://developer.nvidia.com/buy-jetson?product=all&location=FI).
 
 [Reference Video](https://www.youtube.com/watch?v=1BneqPdEhMM) here there is a basic good reference to follow.
+
+[Getting Nvidia certificate](https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs#jetson_ai_ambassador) is a good chance to use the Jetson Nano 2GB to get a certificate.
