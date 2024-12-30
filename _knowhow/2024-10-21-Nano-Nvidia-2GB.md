@@ -22,3 +22,10 @@ By now, the Nvidia-Nano-2B is already waiting for the next components, such as c
 [Reference Video](https://www.youtube.com/watch?v=1BneqPdEhMM) here there is a basic good reference to follow.
 
 [Getting Nvidia certificate](https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs#jetson_ai_ambassador) is a good chance to use the Jetson Nano 2GB to get a certificate.
+
+
+List
+=====
+
+1. item 1
+2. item 2
