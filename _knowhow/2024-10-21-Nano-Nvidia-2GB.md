@@ -1,6 +1,6 @@
 ---
 title: 'Started kit Nvidia-Nano-2GB'
-date: 2024-10-21
+date: 2024-12-30
 permalink: /knowhow/nvidianano/
 author_profile: false
 read_more: enabled
@@ -8,6 +8,7 @@ tags:
   - machine learning
   - hardware
   - started Kit
+  - nvidia
 ---
 
 ***Abstract:*** In the last years many AIML applications are getting popular, most of them are constrained to computer simulations without any hardware implication. In this case, the target is to get in touch with Nvidia hardware for a potential run-up on real applications, for example robotics. 
