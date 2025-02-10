@@ -27,24 +27,29 @@ new Chart("myChart", {
   data: {
     labels: xValues,
     datasets: [{ 
-      data: [0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      data: [0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
       borderColor: "red",
 	  label: "cross-country",
       fill: false
     }, { 
-      data: [0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      data: [0,0.5,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
       borderColor: "green",
 	  label: "swimming",
       fill: false
     }, { 
-      data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      data: [0,0.1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
       borderColor: "blue",
 	  label: "Gym",
       fill: false
-    }]
+    }, { 
+      data: [0,1.6,0,0,0,0,0,0,0,3.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      borderColor: "black",
+	  label: "Acculative of all activities ",
+      fill: false
+	  }]
   },
   options: {
-    legend: {display: false}
+    legend: {display: true}
   }
 });
 </script>
