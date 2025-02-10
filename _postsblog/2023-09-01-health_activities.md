@@ -46,5 +46,5 @@ new Chart("myChart", {
   options:{...}
 });
 
-<html!>
+</html>
 
