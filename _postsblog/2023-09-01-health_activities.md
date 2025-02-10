@@ -21,7 +21,7 @@ tags:
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('data.txt')
+  fetch('https://aikonbrasil.github.io/web/_postblog/data.txt')
     .then(response => response.text())
     .then(text => {
       const lines = text.split('\n');
