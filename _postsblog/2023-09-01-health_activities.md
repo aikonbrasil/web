@@ -15,49 +15,34 @@ tags:
 ***Abstract:*** Dayly activity is reported in this page, it is for personal usage only.
 
 <html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 <body>
-<canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://aikonbrasil.github.io/web/_postblog/data.txt')
-    .then(response => response.text())
-    .then(text => {
-      const lines = text.split('\n');
-      const xValues = lines[0].split(',').map(Number);
-      const yValues = lines[1].split(',').map(Number);
+const xValues = [100,200,300,400,500,600,700,800,900,1000];
 
-      new Chart("myChart", {
-        type: "line",
-        data: {
-          labels: xValues,
-          datasets: [{
-            fill: false,
-            lineTension: 0,
-            backgroundColor: "rgba(0,0,255,1.0)",
-            borderColor: "rgba(0,0,255,0.1)",
-            data: yValues
-          }]
-        },
-        options: {
-          legend: {
-            display: false
-          },
-          scales: {
-            yAxes: [{
-              ticks: {
-                min: 6,
-                max: 16
-              }
-            }],
-          }
-        }
-      });
-    })
-    .catch(error => {
-      console.error('Error fetching data', error);
-    });
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{ 
+      data: [860,1140,1060,1060,1070,1110,1330,2210,7830,2478],
+      borderColor: "red",
+      fill: false
+    }, { 
+      data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],
+      borderColor: "green",
+      fill: false
+    }, { 
+      data: [300,700,2000,5000,6000,4000,2000,1000,200,100],
+      borderColor: "blue",
+      fill: false
+    }]
+  },
+  options: {
+    legend: {display: false}
+  }
 });
 </script>
 
