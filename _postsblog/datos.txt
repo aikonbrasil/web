@@ -1,0 +1,6 @@
+Enero,30
+Febrero,50
+Marzo,80
+Abril,40
+Mayo,60
+Junio,70
