@@ -132,7 +132,7 @@ new Chart("myChart", {
       fill: false
     }, { 
       //data: Arrays_cdf (  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
-	  data:    Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym ) ,
+	  data:  yGym ,
       borderColor: "black",
 	  label: "Acculative of all activities ",
       fill: false
