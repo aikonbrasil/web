@@ -135,7 +135,7 @@ new Chart("myChartPerDay_feb2025", {
 	  yAxes: [{
 	    scaleLabel: {
 		  display: true,
-		  labelString: 'Hours'
+		  labelString: 'Physical Activity per Day (# of Hours)'
 		}
 	  }],
 	  xAxes: [{
@@ -181,7 +181,7 @@ new Chart("myChartPerCDF_feb2025", {
 	  yAxes: [{
 	    scaleLabel: {
 		  display: true,
-		  labelString: 'Hours'
+		  labelString: 'CDF (# of hours)'
 		}
 	  }],
 	  xAxes: [{
