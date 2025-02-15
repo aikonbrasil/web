@@ -65,6 +65,30 @@ function Arrays_sum(array1, array2) {
 };
 
 
+function Arrays_cdf(array1) {
+  var result = [];
+
+  var ctr = 0;
+  var x = 0;
+
+  if (array1.length === 0)
+    return "array1 is empty";
+
+  while (ctr < array1.length ) {
+	if (ctr === 0){
+		x = array1[ctr];
+		result.push(x);
+	}else{
+		x = x + array1[ctr];
+		result.push(x);
+	}
+    ctr++;
+  }
+
+  return result;
+};
+
+
 
 new Chart("myChart", {
   type: "line",
@@ -86,7 +110,7 @@ new Chart("myChart", {
 	  label: "Gym",
 	  fill: false
 	}, { 
-	  data:  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym ) ,
+	  data:  Arrays_cdf (  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
 	  borderColor: "black",
 	  label: "Acculative of all activities ",
 	  fill: false
@@ -110,7 +134,7 @@ function myFunction(p1, p2) {
   return p1 * p2;
 }
   
-let result = myFunction(4, 3);
+let result = myFunction(4, 4);
 document.getElementById("demo").innerHTML = result;
 </script>
 
