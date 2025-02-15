@@ -30,7 +30,10 @@ tags:
 <body>
 <h1>  February 2025 </h1>
 <h2>  Activity per day </h2>
-<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<canvas id="myChartPerDay_feb2025" style="width:100%;max-width:600px"></canvas>
+
+<h2>  Activity Accumulated during the entire month </h2>
+<canvas id="myChartPerCDF_feb2025" style="width:100%;max-width:600px"></canvas>
 
 <script>
 
@@ -101,7 +104,53 @@ function Arrays_cdf(array1) {
 
 
 
-new Chart("myChart", {
+new Chart("myChartPerDay_feb2025", {
+  type: "line",
+  data: {
+	labels: xValues,
+	datasets: [{ 
+	  data: Arrays_cdf(yCrossCountry),
+	  borderColor: "red",
+	  label: "cross-country",
+	  fill: false
+	}, { 
+	  data: Arrays_cdf(ySwimming),
+	  borderColor: "green",
+	  label: "swimming",
+	  fill: false
+	}, { 
+	  data: Arrays_cdf( yGym),
+	  borderColor: "blue",
+	  label: "Gym",
+	  fill: false
+	}, { 
+	  data:  Arrays_cdf(  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
+	  borderColor: "black",
+	  label: "Acculative of all activities ",
+	  fill: false
+	  }]
+  },
+  options: {
+	scales: {
+	  yAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'Hours'
+		}
+	  }],
+	  xAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'Days'
+		}
+	  }]
+	}
+  }
+});
+
+
+
+new Chart("myChartPerCDF_feb2025", {
   type: "line",
   data: {
 	labels: xValues,
