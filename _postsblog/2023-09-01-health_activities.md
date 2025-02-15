@@ -236,9 +236,9 @@ $.get('https://aikonbrasil.github.io/web/files/datos.txt', function(data) {
 		}
 	})
 })
-let resultadofinal = valores[1];
+let resultadofinal = valores.length;
 document.getElementById("demo2").innerHTML = resultadofinal;
-console.log(valores)
+
 
 </script>
 
