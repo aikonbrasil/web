@@ -222,6 +222,13 @@ let output = Arrays_sum(5, 6);
 document.getElementById("demo1").innerHTML = output;
 </script>
 
+<script>
+const fs = require('fs')
+fs.readFile('https://aikonbrasil.github.io/web/files/datos.txt', (err, inputD) => {
+   if (err) throw err;
+      console.log(inputD.toString());
+})
+</script>
 
 </body>
 </html>
