@@ -30,8 +30,6 @@ const ySwimming =
 [  1,0.5,  0,  0,  0,  0,  0,  0,  0,0.5,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
 const yGym =
 [  0,0.1,  0,  0,  0,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
-const sSum =
-[  1,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,6.1,6.1,6.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,9.1,9.1];
 
 
 function Arrays_sum(array1, array2) {
@@ -95,22 +93,22 @@ new Chart("myChart", {
   data: {
 	labels: xValues,
 	datasets: [{ 
-	  data: yCrossCountry,
+	  data: Arrays_cdf(yCrossCountry),
 	  borderColor: "red",
 	  label: "cross-country",
 	  fill: false
 	}, { 
-	  data: ySwimming,
+	  data: Arrays_cdf(ySwimming),
 	  borderColor: "green",
 	  label: "swimming",
 	  fill: false
 	}, { 
-	  data: yGym,
+	  data: Arrays_cdf( yGym),
 	  borderColor: "blue",
 	  label: "Gym",
 	  fill: false
 	}, { 
-	  data:  Arrays_cdf (  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
+	  data:  Arrays_cdf(  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
 	  borderColor: "black",
 	  label: "Acculative of all activities ",
 	  fill: false
@@ -134,7 +132,7 @@ function myFunction(p1, p2) {
   return p1 * p2;
 }
   
-let result = myFunction(4, 4);
+let result = myFunction(4, 3);
 document.getElementById("demo").innerHTML = result;
 </script>
 
