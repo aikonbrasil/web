@@ -75,16 +75,19 @@ new Chart("myChart", {
 <script>
 function myFunction(p1, p2) {
   return p1 * p2;
+}
+  
+let result = myFunction(4, 3);
+document.getElementById("demo").innerHTML = result;
 };
+</script>
 
+<script>
 // Function to calculate the sum of corresponding elements from two arrays
 function Arrays_sum(array1, array2) {
   var result = [];
   return result;
-}
-
-let result = myFunction(4, 3);
-document.getElementById("demo").innerHTML = result;
+};
 </script>
 
 </body>
