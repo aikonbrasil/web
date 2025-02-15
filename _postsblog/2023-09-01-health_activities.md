@@ -86,7 +86,7 @@ new Chart("myChart", {
 	  label: "Gym",
 	  fill: false
 	}, { 
-	  data:  sSum ,
+	  data:  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym ) ,
 	  borderColor: "black",
 	  label: "Acculative of all activities ",
 	  fill: false
