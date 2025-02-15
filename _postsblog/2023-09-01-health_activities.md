@@ -69,7 +69,7 @@ function Arrays_sum(array1, array2) {
 
   // Return the resulting array
   return result;
-}
+};
 
 
 new Chart("myChart", {
