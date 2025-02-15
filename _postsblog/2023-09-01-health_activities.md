@@ -20,54 +20,51 @@ tags:
 <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script>
-$(document).ready(function() {
 
 
+const xValues = 
+[  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28];
+const yCrossCountry = 
+[  0,  1,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0];
+const ySwimming = 
+[  1,0.5,  0,  0,  0,  0,  0,  0,  0,0.5,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+const yGym =
+[  0,0.1,  0,  0,  0,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+const sSum =
+[  1,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,6.1,6.1,6.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,9.1,9.1];
 
-	const xValues = 
-	[  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28];
-	const yCrossCountry = 
-	[  0,  1,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0];
-	const ySwimming = 
-	[  1,0.5,  0,  0,  0,  0,  0,  0,  0,0.5,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
-	const yGym =
-	[  0,0.1,  0,  0,  0,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
-	const sSum =
-	[  1,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,6.1,6.1,6.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,9.1,9.1];
-
-	new Chart("myChart", {
-	  type: "line",
-	  data: {
-		labels: xValues,
-		datasets: [{ 
-		  data: yCrossCountry,
-		  borderColor: "red",
-		  label: "cross-country",
-		  fill: false
-		}, { 
-		  data: ySwimming,
-		  borderColor: "green",
-		  label: "swimming",
-		  fill: false
-		}, { 
-		  data: yGym,
-		  borderColor: "blue",
-		  label: "Gym",
-		  fill: false
-		}, { 
-		  data:  sSum ,
-		  borderColor: "black",
-		  label: "Acculative of all activities ",
-		  fill: false
-		  }]
-	  },
-	  options: {
-		legend: {display: true}
-	  }
-	});
+new Chart("myChart", {
+  type: "line",
+  data: {
+	labels: xValues,
+	datasets: [{ 
+	  data: yCrossCountry,
+	  borderColor: "red",
+	  label: "cross-country",
+	  fill: false
+	}, { 
+	  data: ySwimming,
+	  borderColor: "green",
+	  label: "swimming",
+	  fill: false
+	}, { 
+	  data: yGym,
+	  borderColor: "blue",
+	  label: "Gym",
+	  fill: false
+	}, { 
+	  data:  sSum ,
+	  borderColor: "black",
+	  label: "Acculative of all activities ",
+	  fill: false
+	  }]
+  },
+  options: {
+	legend: {display: true}
+  }
+});
 
 
-});	
 
 </script>
 
