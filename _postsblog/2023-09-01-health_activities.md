@@ -72,6 +72,8 @@ new Chart("myChart", {
 
 <p id="demo"></p>
 
+<p id="demo1"></p>
+
 <script>
 function myFunction(p1, p2) {
   return p1 * p2;
@@ -85,9 +87,11 @@ document.getElementById("demo").innerHTML = result;
 <script>
 // Function to calculate the sum of corresponding elements from two arrays
 function Arrays_sum(array1, array2) {
-  var result = [];
-  return result;
-};
+  return array1*array2;
+}
+
+let output = Arrays_sum(5,6);
+document.getElementById("demo1").innerHTML = output;
 </script>
 
 </body>
