@@ -70,6 +70,8 @@ new Chart("myChart", {
 
 </script>
 
+<p id="demo"></p>
+
 <script>
 function myFunction(p1, p2) {
   return p1 * p2;
