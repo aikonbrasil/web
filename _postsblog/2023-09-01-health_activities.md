@@ -223,7 +223,7 @@ document.getElementById("demo1").innerHTML = output;
 </script>
 
 <script>
-$.get('datos.txt', function(data) {
+$.get('https://aikonbrasil.github.io/web/files/datos.txt', function(data) {
 	let lineas = data.split('\n');
 	let etiquetas = [];
 	let valores = [];
