@@ -14,11 +14,6 @@ tags:
 
 ***Abstract:*** Dayly activity is reported in this page, it is for personal usage only.
 
-<html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-<body>
-<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-
 <script>
 const xValues = 
 [  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28];
@@ -95,7 +90,6 @@ function Arrays_cdf(array1) {
 		x = array1[ctr];
 		result.push(x);
 	}else{
-	if (ctr > 0)
 		//result.push(array1[ctr] + array1[ctr-1]);
 		//x = x + array1[ctr] + array1[ctr-1];
 		x = x + array1[ctr];
@@ -132,7 +126,8 @@ new Chart("myChart", {
 	  label: "Gym",
       fill: false
     }, { 
-      data: Arrays_cdf (  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
+      //data: Arrays_cdf (  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
+	  data:    Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym ) ,
       borderColor: "black",
 	  label: "Acculative of all activities ",
       fill: false
