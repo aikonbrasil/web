@@ -115,7 +115,20 @@ new Chart("myChart", {
 	  }]
   },
   options: {
-	legend: {display: true}
+	scales: {
+	  yAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'Hours'
+		}
+	  }],
+	  xAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'Days'
+		}
+	  }]
+	}
   }
 });
 
