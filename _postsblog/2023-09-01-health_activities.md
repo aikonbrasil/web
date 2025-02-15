@@ -81,7 +81,6 @@ function myFunction(p1, p2) {
   
 let result = myFunction(4, 3);
 document.getElementById("demo").innerHTML = result;
-};
 </script>
 
 <script>
