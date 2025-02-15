@@ -202,6 +202,8 @@ new Chart("myChartPerCDF_feb2025", {
 
 <p id="demo1"></p>
 
+<p id="demo2"></p>
+
 <script>
 function myFunction(p1, p2) {
   return p1 * p2;
@@ -218,6 +220,25 @@ function Arrays_sum(array1, array2) {
 
 let output = Arrays_sum(5, 6);
 document.getElementById("demo1").innerHTML = output;
+</script>
+
+<script>
+$.get('datos.txt', function(data) {
+	let lineas = data.split('\n');
+	let etiquetas = [];
+	let valores = [];
+
+	lineas.forEach(function(linea) {
+		let partes = linea.split(',');
+		if (partes.length === 2) {
+			etiquetas.push(partes[0]);
+			valores.push(parseInt(partes[1]));
+		}
+	})
+})
+let resultadofinal = valores[1];
+document.getElementById("demo2").innerHTML = resultadofinal;
+
 </script>
 
 </body>
