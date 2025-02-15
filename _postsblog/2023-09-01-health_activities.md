@@ -23,11 +23,93 @@ tags:
 const xValues = 
 [  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28];
 const yCrossCountry = 
-[  0,  1,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+[  0,  1,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0];
 const ySwimming = 
-[  0,0.5,  0,  0,  0,  0,  0,  0,  0,0.5,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+[  1,0.5,  0,  0,  0,  0,  0,  0,  0,0.5,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
 const yGym =
 [  0,0.1,  0,  0,  0,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+
+
+
+// Function to calculate the sum of corresponding elements from two arrays
+function Arrays_sum(array1, array2) {
+  // Initialize an empty array to store the sum of corresponding elements
+  var result = [];
+
+  // Initialize counters for iterating through the arrays
+  var ctr = 0;
+  var x = 0;
+
+  // Check if array1 is empty, return an error message if true
+  if (array1.length === 0)
+    return "array1 is empty";
+
+  // Check if array2 is empty, return an error message if true
+  if (array2.length === 0)
+    return "array2 is empty";
+
+  // Iterate through arrays until the end of either array is reached
+  while (ctr < array1.length && ctr < array2.length) {
+    // Calculate the sum of corresponding elements and push it to the result array
+    result.push(array1[ctr] + array2[ctr]);
+    // Increment the counter
+    ctr++;
+  }
+
+  // Check if array1 is exhausted
+  if (ctr === array1.length) {
+    // Append the remaining elements from array2 to the result array
+    for (x = ctr; x < array2.length; x++) {
+      result.push(array2[x]);
+    }
+  } else {
+    // Append the remaining elements from array1 to the result array
+    for (x = ctr; x < array1.length; x++) {
+      result.push(array1[x]);
+    }
+  }
+
+  // Return the resulting array
+  return result;
+}
+
+
+
+function Arrays_cdf(array1) {
+  // Initialize an empty array to store the sum of corresponding elements
+  var result = [];
+
+  // Initialize counters for iterating through the arrays
+  var ctr = 0;
+  var x = 0;
+
+  // Check if array1 is empty, return an error message if true
+  if (array1.length === 0)
+    return "array1 is empty";
+
+  // Iterate through arrays until the end of either array is reached
+  while (ctr < array1.length ) {
+    // Calculate the sum of corresponding elements and push it to the result array
+	if (ctr === 0){
+		//result.push(array1[ctr]);
+		x = array1[ctr];
+		result.push(x);
+	}else{
+	if (ctr > 0)
+		//result.push(array1[ctr] + array1[ctr-1]);
+		//x = x + array1[ctr] + array1[ctr-1];
+		x = x + array1[ctr];
+		result.push(x);
+	}
+    // Increment the counter
+    ctr++;
+  }
+
+
+  // Return the resulting array
+  return result;
+}
+
 
 
 new Chart("myChart", {
@@ -50,7 +132,7 @@ new Chart("myChart", {
 	  label: "Gym",
       fill: false
     }, { 
-      data: yCrossCountry+ySwimming+yGym,
+      data: Arrays_cdf (  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
       borderColor: "black",
 	  label: "Acculative of all activities ",
       fill: false
@@ -64,4 +146,3 @@ new Chart("myChart", {
 
 </body>
 </html>
-
