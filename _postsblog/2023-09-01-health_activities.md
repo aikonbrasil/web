@@ -223,6 +223,8 @@ document.getElementById("demo1").innerHTML = output;
 </script>
 
 <script>
+$(document).ready(function() {
+
 $.get('https://aikonbrasil.github.io/web/files/datos.txt', function(data) {
 	let lineas = data.split('\n');
 	let etiquetas = [];
@@ -240,7 +242,7 @@ $.get('https://aikonbrasil.github.io/web/files/datos.txt', function(data) {
 let resultadofinal = valoress.length;
 document.getElementById("demo2").innerHTML = resultadofinal;
 
-
+})
 </script>
 
 </body>
