@@ -222,28 +222,6 @@ let output = Arrays_sum(5, 6);
 document.getElementById("demo1").innerHTML = output;
 </script>
 
-<script>
-$(document).ready(function() {
-
-$.get('https://aikonbrasil.github.io/web/files/datos.txt', function(data) {
-	let lineas = data.split('\n');
-	let etiquetas = [];
-	let valores = [];
-	let valoress = [1,4,7];
-
-	lineas.forEach(function(linea) {
-		let partes = linea.split(',');
-		if (partes.length === 2) {
-			etiquetas.push(partes[0]);
-			valores.push(parseInt(partes[1]));
-		}
-	})
-})
-let resultadofinal = valoress.length;
-document.getElementById("demo2").innerHTML = resultadofinal;
-
-})
-</script>
 
 </body>
 </html>
