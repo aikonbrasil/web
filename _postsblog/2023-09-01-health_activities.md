@@ -209,7 +209,7 @@ function myFunction(p1, p2) {
   return p1 * p2;
 }
   
-let result = myFunction(4, 4);
+let result = myFunction(4, 3);
 document.getElementById("demo").innerHTML = result;
 </script>
 
@@ -227,6 +227,7 @@ $.get('https://aikonbrasil.github.io/web/files/datos.txt', function(data) {
 	let lineas = data.split('\n');
 	let etiquetas = [];
 	let valores = [];
+	let valoress = [1,4,7];
 
 	lineas.forEach(function(linea) {
 		let partes = linea.split(',');
@@ -236,7 +237,7 @@ $.get('https://aikonbrasil.github.io/web/files/datos.txt', function(data) {
 		}
 	})
 })
-let resultadofinal = valores.length;
+let resultadofinal = valoress.length;
 document.getElementById("demo2").innerHTML = resultadofinal;
 
 
