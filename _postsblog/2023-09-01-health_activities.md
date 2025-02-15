@@ -75,7 +75,7 @@ new Chart("myChart", {
 <script>
 function myFunction(p1, p2) {
   return p1 * p2;
-}
+};
 
 // Function to calculate the sum of corresponding elements from two arrays
 function Arrays_sum(array1, array2) {
