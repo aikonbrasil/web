@@ -109,24 +109,24 @@ new Chart("myChartPerDay_feb2025", {
   data: {
 	labels: xValues,
 	datasets: [{ 
-	  data: Arrays_cdf(yCrossCountry),
+	  data: yCrossCountry,
 	  borderColor: "red",
 	  label: "cross-country",
 	  fill: false
 	}, { 
-	  data: Arrays_cdf(ySwimming),
+	  data: ySwimming,
 	  borderColor: "green",
 	  label: "swimming",
 	  fill: false
 	}, { 
-	  data: Arrays_cdf( yGym),
+	  data: yGym,
 	  borderColor: "blue",
 	  label: "Gym",
 	  fill: false
 	}, { 
-	  data:  Arrays_cdf(  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym )  ),
+	  data:  Arrays_sum( Arrays_sum(yCrossCountry,ySwimming), yGym ),
 	  borderColor: "black",
-	  label: "Acculative of all activities ",
+	  label: " All activities per day ",
 	  fill: false
 	  }]
   },
