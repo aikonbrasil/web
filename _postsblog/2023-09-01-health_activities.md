@@ -33,6 +33,13 @@ const yGym =
 const sSum =
 [  1,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,6.1,6.1,6.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,8.1,9.1,9.1];
 
+// Function to calculate the sum of corresponding elements from two arrays
+function Arrays_sum(array1, array2) {
+  // Initialize an empty array to store the sum of corresponding elements
+  var result = [];
+  return result;
+};
+
 new Chart("myChart", {
   type: "line",
   data: {
