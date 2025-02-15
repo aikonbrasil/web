@@ -243,7 +243,7 @@ document.getElementById('https://aikonbrasil.github.io/web/files/datos.txt').add
     console.log(reader.result);
   };
   reader.readAsText(this.files[0]);
-});
+})
 </script>
 
 </body>
