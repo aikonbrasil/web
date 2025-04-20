@@ -1,7 +1,7 @@
 ---
 title: 'Sports and other activities - statistics'
 date: 2025-10-01
-permalink: /health/2025/09/3gpp/
+permalink: /health/2025/04/physical_activities/
 author_profile: false
 read_more: enabled
 tags:
