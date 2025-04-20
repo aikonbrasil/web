@@ -65,17 +65,17 @@ go and follow the instructions defined in this repo: [Jetson Fan CTL](https://gi
 TO UPGRADE THE JETSON
 ======
 
-1. edit ```etc/apt/sources.list.d/nvidia-l4t-apt-source.list``` to point to the 35.1 repo. To do it just change the version to r35.1 in both lines.
+1. edit ```etc/apt/sources.list.d/nvidia-l4t-apt-source.list``` to point to the 32.7 repo. To do it just change the version to r32.7 in both lines.
 2. use the following command: ```sudo apt update```
 3. use the following command: ```sudo apt dist-upgrade```
 
 Example of the content of nvidia-14t-apt-source-list:
 ```
 *****@jetson:~$ cat /etc/apt/sources.list.d/nvidia-l4t-apt-source.list
-deb https://repo.download.nvidia.com/jetson/common r35.1 main
-deb https://repo.download.nvidia.com/jetson/t210 r35.1 main
+deb https://repo.download.nvidia.com/jetson/common r32.7 main
+deb https://repo.download.nvidia.com/jetson/t210 r32.7 main
 ```
-
+- Note: in Nvidia [jetson-linux-archive](https://developer.nvidia.com/embedded/jetson-linux-archive) is shown that Jetson Nano is supported only until JETSON LINUX VERSION 23.7.6.
 
 TO INSTALL JTOP
 ================
