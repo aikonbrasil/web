@@ -370,7 +370,7 @@ new Chart("myChartPerCDF_march2025", {
 
 </script>
 
-
+[//]: # SCRIPT FOR APRIL 2025
 
 <h1>  April 2025 </h1>
 <h2>  Activity per day </h2>
@@ -385,11 +385,11 @@ new Chart("myChartPerCDF_march2025", {
 const xValues_april = 
 [  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
 const yCrossCountry_april = 
-[  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+[  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  2,  0,  0,  0,  0,  0,  1];
 const ySwimming_april = 
 [  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
 const yGym_april =
-[  0,  0,  1,  0,  0,  0,  0,  0,  0,0.5,  0,  0,  0,  0,  1,  0,  0,  0,1.5,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+[  0,  0,  1,  0,  0,  0,  0,  0,  0,0.5,  0,  0,  0,  0,  1,  0,  0,  0,1.5,  0,  0,  0,  0,  0,  1,  0,  0,  0,  1,  0];
 
 
 function Arrays_sum(array1, array2) {
@@ -455,7 +455,7 @@ new Chart("myChartPerDay_april2025", {
 	datasets: [{ 
 	  data: yCrossCountry_april,
 	  borderColor: "red",
-	  label: "cross-country",
+	  label: "cross-country/Tennis",
 	  fill: false
 	}, { 
 	  data: ySwimming_april,
@@ -541,6 +541,181 @@ new Chart("myChartPerCDF_april2025", {
 
 
 </script>
+
+
+
+[//]: # SCRIPT FOR MAY 2025
+
+<h1>  May 2025 </h1>
+<h2>  Activity per day </h2>
+<canvas id="myChartPerDay_may2025" style="width:100%;max-width:600px"></canvas>
+
+<h2>  Activity Accumulated during the entire month </h2>
+<canvas id="myChartPerCDF_may2025" style="width:100%;max-width:600px"></canvas>
+
+<script>
+
+
+const xValues_may = 
+[  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+const yTennis_may = 
+[  2,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+const ySwimming_may = 
+[  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+const yGym_may =
+[  0,  0,  0,  0,1.5,  0,  0,1.5,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0];
+
+
+function Arrays_sum(array1, array2) {
+  var result = [];
+
+  var ctr = 0;
+  var x = 0;
+
+  if (array1.length === 0)
+    return "array1 is empty";
+
+  if (array2.length === 0)
+    return "array2 is empty";
+
+  while (ctr < array1.length && ctr < array2.length) {
+    result.push(array1[ctr] + array2[ctr]);
+    ctr++;
+  }
+
+  if (ctr === array1.length) {
+    for (x = ctr; x < array2.length; x++) {
+      result.push(array2[x]);
+    }
+  } else {
+    for (x = ctr; x < array1.length; x++) {
+      result.push(array1[x]);
+    }
+  }
+
+  return result;
+};
+
+
+function Arrays_cdf(array1) {
+  var result = [];
+
+  var ctr = 0;
+  var x = 0;
+
+  if (array1.length === 0)
+    return "array1 is empty";
+
+  while (ctr < array1.length ) {
+	if (ctr === 0){
+		x = array1[ctr];
+		result.push(x);
+	}else{
+		x = x + array1[ctr];
+		result.push(x);
+	}
+    ctr++;
+  }
+
+  return result;
+};
+
+
+
+new Chart("myChartPerDay_may2025", {
+  type: "line",
+  data: {
+	labels: xValues_april,
+	datasets: [{ 
+	  data: yTennis_may,
+	  borderColor: "red",
+	  label: "cross-country/Tennis",
+	  fill: false
+	}, { 
+	  data: ySwimming_may,
+	  borderColor: "green",
+	  label: "swimming",
+	  fill: false
+	}, { 
+	  data: yGym_may,
+	  borderColor: "blue",
+	  label: "Gym",
+	  fill: false
+	}, { 
+	  data:  Arrays_sum( Arrays_sum(yTennis_may,ySwimming_may), yGym_may ),
+	  borderColor: "black",
+	  label: " All activities per day ",
+	  fill: false
+	  }]
+  },
+  options: {
+	scales: {
+	  yAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'Physical Activity per Day (# of Hours)'
+		}
+	  }],
+	  xAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'Days'
+		}
+	  }]
+	}
+  }
+});
+
+
+
+new Chart("myChartPerCDF_may2025", {
+  type: "line",
+  data: {
+	labels: xValues,
+	datasets: [{ 
+	  data: Arrays_cdf(yTennis_may),
+	  borderColor: "red",
+	  label: "cross-country",
+	  fill: false
+	}, { 
+	  data: Arrays_cdf(ySwimming_may),
+	  borderColor: "green",
+	  label: "swimming",
+	  fill: false
+	}, { 
+	  data: Arrays_cdf( yGym_may),
+	  borderColor: "blue",
+	  label: "Gym",
+	  fill: false
+	}, { 
+	  data:  Arrays_cdf(  Arrays_sum( Arrays_sum(yTennis_may,ySwimming_may), yGym_may )  ),
+	  borderColor: "black",
+	  label: "Acculative of all activities ",
+	  fill: false
+	  }]
+  },
+  options: {
+	scales: {
+	  yAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'CDF (# of hours)'
+		}
+	  }],
+	  xAxes: [{
+	    scaleLabel: {
+		  display: true,
+		  labelString: 'Days'
+		}
+	  }]
+	}
+  }
+});
+
+
+
+</script>
+
 
 
 
