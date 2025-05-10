@@ -501,7 +501,7 @@ new Chart("myChartPerCDF_april2025", {
 	datasets: [{ 
 	  data: Arrays_cdf(yCrossCountry_april),
 	  borderColor: "red",
-	  label: "cross-country",
+	  label: "cross-country/Tennis",
 	  fill: false
 	}, { 
 	  data: Arrays_cdf(ySwimming_april),
@@ -629,7 +629,7 @@ new Chart("myChartPerDay_may2025", {
 	datasets: [{ 
 	  data: yTennis_may,
 	  borderColor: "red",
-	  label: "cross-country/Tennis",
+	  label: "Tennis",
 	  fill: false
 	}, { 
 	  data: ySwimming_may,
@@ -675,7 +675,7 @@ new Chart("myChartPerCDF_may2025", {
 	datasets: [{ 
 	  data: Arrays_cdf(yTennis_may),
 	  borderColor: "red",
-	  label: "cross-country",
+	  label: "Tennis",
 	  fill: false
 	}, { 
 	  data: Arrays_cdf(ySwimming_may),
