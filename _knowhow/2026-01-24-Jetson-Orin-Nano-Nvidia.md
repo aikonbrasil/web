@@ -25,4 +25,4 @@ The following steps were completed:
 
 [Initial Setup](https://www.jetson-ai-lab.com/tutorials/initial-setup-jetson-orin-nano/#6%EF%B8%8F%E2%83%A3-boot-with-jetpack-6x-sd-card)
 
-[SSD + Docker Setup] https://www.jetson-ai-lab.com/tutorials/ssd-docker-setup/
+[SSD + Docker Setup] (https://www.jetson-ai-lab.com/tutorials/ssd-docker-setup/)
