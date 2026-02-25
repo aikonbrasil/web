@@ -20,7 +20,7 @@ My name is Dick Carrillo Melgarejo, apassionate in research and development wiht
 
 
 <div style="text-align: justify"> 
-I am an Electronic Engineer with a Master in Electrical Engineering and a Ph.D in Wireless Communication.
+I am an Electronic Engineer with a Master and Doctorate (Ph.D.) degree in Electrical Engineering, both on Wireless Communication.
 </div>
 
 <div style="text-align: justify"> 
