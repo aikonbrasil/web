@@ -20,7 +20,7 @@ Since 2018 I developed several projects that involves the use of artificial inte
 
 
 <div style="text-align: justify"> 
-For more details, you can take a look to my <a href="http://aikonbrasil.github.io/web/files/cv.pdf"  target="_blank"> Full CV Version </a> or <a href="http://aikonbrasil.github.io/web/files/cv_short.pdf"  target="_blank"> Short CV Version </a>
+For more details, you can take a look to my <a href="http://aikonbrasil.github.io/web/files/dickcm_cv_30022026.pdf"  target="_blank"> Full CV Version </a> or <a href="http://aikonbrasil.github.io/web/files/dickcm_cv_30022026_short.pdf"  target="_blank"> Short CV Version </a>
 </div>
 
 &nbsp;
