@@ -11,12 +11,13 @@ redirect_from:
 A brief Biography
 ======
 <div style="text-align: justify"> 
-My name is Dick Carrillo Melgarejo, and welcome to my CV page. I am an Engineer with experience on Wireless Communication by more than 18 years. All this time was shared between the academy and industry. In my Master's, I worked with OFDM and non-linear systems, and now, in my Ph.D., I proposed a RAN Slicing Framework based on Machine Learning to enable IEC 61850 (a power grid substation protocol). My interest research topics are OFDM, GFDM, Grant-free access, reconfigurable intelligent surfaces, cell-free massive MIMO, and machine learning applications on wireless communication.
+My name is Dick Carrillo Melgarejo, apassionate in research and development wiht more than 20 years of experience in the field. My recently job experience is on Standardization on cellular networks for 5G-Advanced and 6G as RAN1 delegate participating in several face-to-face 3GPP meetings.
+
+I am an Electronic Engineer with a Master in Electrical Engineering and a Ph.D in Wireless Communication.
+
+Since 2018 I developed several projects that involves the use of artificial intelligence applied to wireless communication physical and MAC layer. 
 </div>
 
-<div style="text-align: justify"> 
-I received a Ph.D. in Electrical Engineering from UNICAMP University (Brazil) and a Doctorate in Engineering from LUT University (Finland). My Master's degree in Electrical Engineering was done at the Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil. My bachelor in Electronic Engineering was done at San Marcos National University in Lima, Perú.
-</div>
 
 <div style="text-align: justify"> 
 For more details, you can take a look to my <a href="http://aikonbrasil.github.io/web/files/cv.pdf"  target="_blank"> Full CV Version </a> or <a href="http://aikonbrasil.github.io/web/files/cv_short.pdf"  target="_blank"> Short CV Version </a>
