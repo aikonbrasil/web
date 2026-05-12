@@ -178,42 +178,42 @@ tags:
 3GPP RAN1#124
 ======
 
-![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/22_badge_RAN1_124.PNG)
+![Badge RAN1#124](http://aikonbrasil.github.io/web/images/3gppbadges/22_badge_RAN1_124.png)
 
 
 3GPP RAN1#124-bis
 ======
 
-![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/23_badge_RAN1_124bis.PNG)
+![Badge RAN1#124-bis](http://aikonbrasil.github.io/web/images/3gppbadges/23_badge_RAN1_124bis.png)
 
 
 3GPP RAN1#125
 ======
 
-![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/24_badge_RAN1_125.PNG)
+![Badge RAN1#125](http://aikonbrasil.github.io/web/images/3gppbadges/24_badge_RAN1_125.png)
 
 
 
 3GPP RAN1#126
 ======
 
-![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/25_badge_RAN1_126.PNG)
+![Badge RAN1#126](http://aikonbrasil.github.io/web/images/3gppbadges/25_badge_RAN1_126.png)
 
 
 3GPP RAN1#126-bis
 ======
 
-![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/26_badge_RAN1_126bis.PNG)
+![Badge RAN1#126-bis](http://aikonbrasil.github.io/web/images/3gppbadges/26_badge_RAN1_126bis.png)
 
 
 
 3GPP RAN1#127
 ======
 
-![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/27_badge_RAN1_127.PNG)
+![Badge RAN1#127](http://aikonbrasil.github.io/web/images/3gppbadges/27_badge_RAN1_127.png)
 
 
 3GPP RAN1#128
 ======
 
-![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/28_badge_RAN1_128.PNG)
+![Badge RAN1#128](http://aikonbrasil.github.io/web/images/3gppbadges/28_badge_RAN1_128.png)
