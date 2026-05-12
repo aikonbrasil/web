@@ -173,3 +173,47 @@ tags:
 ======
 
 ![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/21_badge_RAN1_123.PNG)
+
+
+3GPP RAN1#124
+======
+
+![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/22_badge_RAN1_124.PNG)
+
+
+3GPP RAN1#124-bis
+======
+
+![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/23_badge_RAN1_124bis.PNG)
+
+
+3GPP RAN1#125
+======
+
+![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/24_badge_RAN1_125.PNG)
+
+
+
+3GPP RAN1#126
+======
+
+![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/25_badge_RAN1_126.PNG)
+
+
+3GPP RAN1#126-bis
+======
+
+![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/26_badge_RAN1_126bis.PNG)
+
+
+
+3GPP RAN1#127
+======
+
+![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/27_badge_RAN1_127.PNG)
+
+
+3GPP RAN1#128
+======
+
+![Badge RAN1#123](http://aikonbrasil.github.io/web/images/3gppbadges/28_badge_RAN1_128.PNG)
